@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+@import "tailwindcss";
+
+body{
+    font-family: "Unbounded", sans-serif;
+    background: var(--color-primary);
+    color: #fff;
+}
+
+@theme{
+    --color-primary: #020817;
+    --color-secondary: #1e293b;
+    --color-tertiary: #1e293b;
+
+    --breakpoint-xs: 480px;
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
+}
+
+.scroll-none::-webkit-scrollbar{
+    display: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
